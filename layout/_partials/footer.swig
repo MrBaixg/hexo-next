@@ -35,6 +35,11 @@
     #}{{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}{#
   #}</span>
   {% endif %}
+
+  <div class="theme-info">
+    <div class="powered-by"></div>
+    <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+  </div>
 </div>
 
 {% if theme.footer.powered.enable %}
