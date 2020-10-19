@@ -594,7 +594,7 @@ quicklink:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: baixg
   count: true
   lazyload: false
